@@ -7,7 +7,7 @@
 | 类型 | 地址 | 用途 |
 |---|---|---|
 | GitHub 源码 | https://github.com/yyzq-cf/stream-bridge | 查看源代码、版本更新、项目说明 |
-| 中文部署教程 | https://www.ywsj.eu.org/archives/kai-yuan-zhi-bo-zi-dong-hua-ping-tai-docker-bu-shu-stream-bridge-zhi-chi-youtubeb-zhan-twitch-duo-ping-tai-tui-liu--da-zao-24-xiao-shi-wu-ren-zhi-bo | 作者提供的 Docker/VPS 部署步骤 |
+| 中文部署教程 | 待补充准确链接 | 暂不写入未经核实的地址 |
 | Docker Hub 镜像 | https://hub.docker.com/r/ywsj/stream-bridge | 拉取镜像；镜像标签：`ywsj/stream-bridge:latest` |
 
 ## 项目用途
