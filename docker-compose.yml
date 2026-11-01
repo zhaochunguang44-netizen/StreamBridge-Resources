@@ -1,0 +1,14 @@
+services:
+  streambridge:
+    image: ywsj/stream-bridge:latest
+    container_name: streambridge
+    restart: unless-stopped
+    ports:
+      - "5300:5300"
+    volumes:
+      - ./data:/app/data
+    environment:
+      ADMIN_USER: ${ADMIN_USER:-admin}
+      ADMIN_PASS: ${ADMIN_PASS:?Set ADMIN_PASS in .env}
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in .env}
+      MONITOR_INTERVAL: ${MONITOR_INTERVAL:-60}
